@@ -11,8 +11,8 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // đầu bài cho CT : Distance Traveled Units = Base Fare Distance - Distance traveled nhưng ví dụ lại là Distance Traveled Units = Distance traveled - Base Fare Distance
-        // Fare = Base Fare Price + (Distance Traveled Units * Cost Per Distance Traveled) nhưng ví dụ lại có tỷ lệ = 50/50 = 1 chưa rõ => confused
+        // dau bai cho CT : Distance Traveled Units = Base Fare Distance - Distance traveled nhung vi du lai la Distance Traveled Units = Distance traveled - Base Fare Distance
+        // Fare = Base Fare Price + (Distance Traveled Units * Cost Per Distance Traveled) nhung vi du lai co ty le = 50/50 = 1 => confused
 
 //        Scanner sc = new Scanner(System.in);
 //
@@ -46,7 +46,7 @@ public class Main {
 //        info.setCostPerDistanceTraveled(c);
 //
         DriverProfile driverA = new DriverProfile(1,"Driver A", "Nguyen Van", "nvA@gmail.com","bus", (float)200, (float)150);
-        DriverProfile driverB = new DriverProfile(1,"Driver B", "Nguyen Van", "nvB@gmail.com","train", (float)300, (float)250);
+        DriverProfile driverB = new DriverProfile(2,"Driver B", "Nguyen Van", "nvB@gmail.com","train", (float)300, (float)250);
 
         DriverService service = new DriverService();
         service.registerDriver(driverA);
